@@ -1,3 +1,26 @@
 body {
-  background-color: aquamarine;
+  margin: 0;
+}
+
+header {
+  height: 100vh;
+  
+  color: whitesmoke;
+  background-color: #6b33b9;
+}
+
+.top-content {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 50px 25px 25px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.top-content h1 {
+  margin: 0;
+}
+
+header p {
+  font-size: 9px;
 }
