@@ -47,6 +47,12 @@ header p {
   padding: 32px;
 }
 
+.content h2 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
 .info {
   font-family: Mukta, sans-serif;
   font-weight: bold;
@@ -58,4 +64,28 @@ header p {
 
 .info span {
   color: #e95400;
+}
+
+.headline {
+  margin: 40px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+blockquote {
+  border-left: 2px solid #e95400;
+  padding-left: 16px;
+  font-size: 14px;
+  margin: 32px 0 32px 32px;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-left: 20px;
+  font-weight: bold;
 }
