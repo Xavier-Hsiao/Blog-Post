@@ -18,6 +18,12 @@ h6 {
   font-weight: 500;
 }
 
+h1 {
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+}
+
 h2 {
   font-size: 50px;
   letter-spacing: -0.5px;
@@ -50,30 +56,30 @@ code {
 
 /* Header */
 
-header {
-  /* 讓 hero 佔滿使用者畫面 */
+.hero {
+    /* 讓 hero 佔滿使用者畫面 */
   height: 100vh;
   color: whitesmoke;
   background-color: #6b33b9;
-}
-
-.top-content {
-  width: 40%;
-  margin: 0 auto;
   text-align: center;
-  padding: 0 50px 25px 25px;
-  border-bottom: 1px solid whitesmoke;
+
+  /* 使用 flexbox 達到水平與垂直置中的效果 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.top-content h1 {
-  margin: 0;
-  font-size: 80px;
-  font-weight: 400;
-  letter-spacing: -1.5px;
+.hero h1,
+.hero p {
+  margin: 16px 0;
+  width: 75%;
+  max-width: 900px;
 }
 
-header p {
-  font-size: 9px;
+.hero hr {
+  width: 70%;
+  margin: 32px 0;
 }
 
 /* Main section */
