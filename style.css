@@ -43,6 +43,11 @@ h6 {
   letter-spacing: 0;
 }
 
+code {
+  color: #e95400;
+  font-weight: bold;
+}
+
 /* Header */
 
 header {
