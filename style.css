@@ -128,3 +128,29 @@ blockquote cite {
   margin-left: 20px;
   font-weight: bold;
 }
+
+/* Footer */
+footer {
+  background-color: #6b33b9;
+}
+
+footer ul {
+  margin: 0 auto;
+  padding: 20px 0;
+  list-style: none;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer li a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
